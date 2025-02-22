@@ -36,7 +36,7 @@ export default function Navbar({setScrollToPlan}) {
                 <span>Generate AI Lesson</span>
             </div>
             <div>
-                <Link to="/previewsLessonPlans">
+                <Link to="/previewsLessonPlans" style={{display:'flex',gap:'10px', alignItems:'center'}}>
                     <img src="previewsPlan.png" alt="error" />
                     <span>Previews Plans</span>
                 </Link>
