@@ -1,8 +1,23 @@
-# React + Vite
+# 📝 AI-Powered Lesson Plan Generator  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Overview  
+The **AI-Powered Lesson Plan Generator** is a web-based tool that helps teachers create structured and editable lesson plans using the **Gemini API**. Users provide key lesson details, and the system generates a detailed plan in a user-friendly format, which can be edited and downloaded as a **PDF**. The project also includes a **"Previous Plans"** page where users can access past lesson plans stored in **localStorage**.
 
-Currently, two official plugins are available:
+## 🚀 Features  
+✅ **AI-Generated Lesson Plans** – Uses **Gemini API** to dynamically create well-structured lesson plans.  
+✅ **Editable Output** – The generated lesson plan appears in a structured format, allowing users to **edit** before finalizing.  
+✅ **Download as PDF** – Users can download the lesson plan as a **PDF** for offline use.  
+✅ **Local Storage for Previous Plans** – Saves past lesson plans in **localStorage** and displays them on a dedicated **"Previous Plans"** page.  
+✅ **User-Friendly UI** – Simple and intuitive interface for teachers to input lesson details.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🏗️ Tech Stack  
+- **Frontend:** HTML, CSS, JavaScript  
+- **API:** Gemini API (via Fetch)  
+- **Storage:** localStorage for saving past lesson plans  
+- **PDF Generation:** JavaScript-based PDF conversion (e.g., `jsPDF`)  
+
+## 🔧 Installation & Setup  
+1. Clone the repository:  
+   ```sh
+   git clone https://github.com/your-username/lesson-plan-generator.git
+   cd lesson-plan-generator
