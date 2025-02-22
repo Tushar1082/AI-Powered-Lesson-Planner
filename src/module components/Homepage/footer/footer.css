@@ -1,0 +1,44 @@
+#footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 10rem;
+  }
+  #logoDiv_F{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  #logoDiv_F img{
+    width: 10rem;
+    border-radius: 50%;
+  }
+  
+  #footerText {
+    font-size: 1rem;
+  }
+  
+  #footerLinks {
+    display: flex;
+    gap: 15px;justify-content: center;
+  }
+  
+  #footerLinks a {
+    color: #ff7eb3;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: 0.3s;
+  }
+  
+  #footerLinks a:hover {
+    color: #ff5e98;
+  }
+  

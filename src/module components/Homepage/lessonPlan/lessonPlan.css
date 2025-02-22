@@ -1,0 +1,133 @@
+#mainDiv_LP{
+    margin: 4rem 5rem;
+    margin-top: 2rem;
+    box-shadow: 0px 0px 7px 1px lightblue;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#mainDiv_LP input{
+    border: none;
+    outline: none;
+    width: 100%;
+}
+#mainDiv_LP p,#mainDiv_LP td{
+    outline: none;
+}
+#mainLessonPlan{
+    width: fit-content;
+    padding: 3rem;
+    background-color: white;
+}
+#topicHeading_LP{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: x-large;
+    border-bottom: 1px solid;
+    padding-bottom: 5px;
+}
+#topicHeading_LP p{
+    font-weight: 500;
+}
+
+
+#summaryHeading_LP{
+    padding: 10px;
+    background-color: #0000ff9e;
+    color: white;
+    margin: 10px 0px;
+    font-weight: 500;
+    font-size: large;
+}
+#summaryData_LP{
+    text-align: left;
+}
+#summaryData_LP tr{
+    border-bottom: 1px solid;
+}
+#summaryData_LP th{
+    background-color: #008080;
+    border-right: 2px solid black;
+    padding: 5px;
+    color: white;
+}
+#summaryData_LP td{
+    padding: 5px;
+    width: 30rem;
+}
+
+#materialNeed_LP{
+    margin-top: 1.3rem;
+}
+#materialNeedHead_LP{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    font-size: large;
+    font-weight: 500;
+}
+#materialNeedCon_LP{
+    padding: 10px;
+}
+#materialNeedCon_LP div{
+    display: flex;
+    gap: 10px; 
+}
+
+#learningObj_LP{
+    margin-top: 2rem;
+}
+#learningObjHead_LP{
+    background-color: #0000ff9e;
+    color: white;
+    padding: 5px 10px;
+    font-size: large;
+    font-weight: 500;
+}
+#learningObjCon_LP{
+    padding: 10px;
+}
+#learningObjCon_LP div{
+    display: flex;
+    gap: 10px; 
+}
+
+#lessonOutlineHead_LP{
+    background-color: black;
+    color: white;
+    padding: 5px 10px;
+    font-size: large;
+    font-weight: 500;
+}
+#lessonOutlineCon_LP{
+    margin-top: 0.8rem;
+}
+#lessonOutlineCon_LP thead{
+    background-color: #8a2be275;
+}
+#lessonOutlineCon_LP tr{
+    background-color: #8a2be238;
+}
+#lessonOutlineCon_LP th,#lessonOutlineCon_LP td{
+    border-right: 1px solid #5f46fa;
+    border-bottom: 1px solid #5f46fa;
+    padding: 10px;
+}
+
+#savePdfBtnDiv_LP{
+    text-align: center;
+    background-color: white;
+    padding-bottom: 2rem;
+}
+#savePdfBtnDiv_LP button{
+    font-size: larger;
+    transition: transform 0.3s ease-in;
+    border-radius: 30px;
+    padding: 1rem 3rem;
+}
+#savePdfBtnDiv_LP button:hover{
+    transform: scale(1.05);
+    color: black;
+    background-color: white;
+    box-shadow: 0px 0px 4px 0px;
+}

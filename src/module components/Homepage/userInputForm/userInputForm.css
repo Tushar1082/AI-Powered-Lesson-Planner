@@ -1,0 +1,326 @@
+/* CSS for styling Form Body */
+#userInputForm{
+    width: 50%;
+    margin: 10px auto;
+    padding: 1rem;
+    border: 1px solid lightgrey;
+    display: grid;
+    gap: 1rem;
+    background-color: white;
+}
+#inputHeading{
+    border-bottom: 1px solid black;
+}
+#inputHeading h1{
+    font-size: revert;
+    font-weight: 500;
+}
+
+/* Css for styling Lesson's Topic Name in JSX Component */
+#topicDiv{
+    display: flex;
+    align-items: center;
+    width: max-content;
+    margin: unset;
+    gap: 1.5rem;
+}
+#topicDiv p{
+    font-size: x-large;
+    font-weight: bold;
+}
+#topicDiv input{
+    width: 15rem;
+    border-radius: 30px;
+    outline: none;
+}
+#topicDiv input::placeholder{
+    font-size: larger;
+}
+.inputDiv{
+    display: flex;
+    align-items: center;
+    width: max-content;
+    margin: auto;
+    gap: 1.5rem;
+}
+.inputDiv span{
+    font-size: larger;
+    font-weight: 500;
+}
+.inputDiv input{
+    padding: 5px 10px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 4px 1px lightgrey;
+    border: none;
+    outline: none;
+    height: unset;
+    width: 20rem;
+    font-size: medium;
+}
+.inputDiv p{
+    font-size: large;
+    font-weight: 500;
+}
+
+/* Css for stylin Grade Level section in the JSX component */
+#gradeLevelDiv{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+#gradeLevelDiv p{
+    font-size: larger;
+    font-weight: 500;
+}
+#gradeLevelDiv button{
+    border-radius: 30px;
+}
+/* CSS for styling the Main Topics & Subtopics section in the JSX component */
+#mainTopicsDiv p{
+    font-size: x-large;
+    font-weight: 500;
+    white-space: nowrap;
+}
+.addItemBtnDiv{
+    padding: 10px;
+    text-align: center;
+    margin-top: 1.4rem;
+}
+.addItemBtnDiv button{
+    padding: 10px 30px;
+    font-size: larger;
+    border-radius: 30px;
+}
+#mainTopicDivHeading{
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid;
+    margin-bottom: 1rem;
+    align-items: center;
+    padding-bottom: 10px;
+}
+#mainTopicDivHeading p{
+    font-weight: 500;
+    white-space: nowrap;
+    font-size: 20px;
+}
+#mainTopicDivHeading input{
+    width: 20rem;
+    border-radius: 30px;
+}
+#mainTopicDivHeading input::placeholder{
+    font-size: medium;
+}
+#subTopicsHeading{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+/* CSS for styling the Materials Needed section in the JSX component */
+#materialsMain {
+    padding: 10px;
+}
+#materialsHeading{
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    font-size: larger;
+    font-weight: 500;
+    white-space: nowrap;
+}
+#materialsCon{
+    width: max-content;
+    padding: 10px;
+    margin-top: 0.7rem;
+}
+#materialsInputDiv{
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+#materialsInputDiv input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    width: 20rem;
+}
+
+#materialsInputDiv button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 40px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+#materialsInputDivbutton:hover {
+    background-color: #0056b3;
+}
+
+#materialItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+.crossBtn{
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 5px;
+    transition: background-color 0.3s ease-in;
+}
+.crossBtn:hover{
+    background-color: red;
+}
+
+/* CSS for styling the Learning Objectivs section in the JSX component */
+#learningObjMain {
+    padding: 10px;
+}
+#learningObjHeading{
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    font-size: larger;
+    font-weight: 500;
+    white-space: nowrap;
+}
+#learningObjCon{
+    width: max-content;
+    padding: 10px;
+    margin-top: 0.7rem;
+}
+#learningObjInputDiv{
+display: flex;
+gap: 10px;
+margin-bottom: 10px;
+}
+
+#learningObjInputDiv input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    width: 20rem;
+}
+
+#learningObjInputDiv button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 5px 40px;
+    border-radius: 30px;
+    font-weight: 500;
+}
+
+#learningObjInputDivbutton:hover {
+    background-color: #0056b3;
+}
+
+#learningObjItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+#lessonOutlineHeading{
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    font-size: larger;
+    font-weight: 500;
+    white-space: nowrap;
+}
+#lessonOutInputBox{
+    margin-top: 1rem;
+    width: 30rem;
+}
+#lessonOutInputBox textarea{
+    font-size: medium;
+    resize: none;
+    height: 100px;
+    max-height: 100px;
+}
+
+#assessmentHeading{
+    border-bottom: 1px solid;
+    padding-bottom: 10px;
+    font-size: larger;
+    font-weight: 500;
+    white-space: nowrap;
+}
+#assessmentInputBox{
+    margin-top: 1rem;
+    width: 30rem;
+}
+#assessmentInputBox textarea{
+    font-size: medium;
+    resize: none;
+    height: 100px;
+    max-height: 100px;
+}
+
+#formSubmitBtnDiv{
+    text-align: center;
+    margin: 1rem 0rem;
+}
+#formSubmitBtn{
+    font-size: larger;
+    border-radius: 30px;
+    padding: 10px 50px;
+}
+
+#customToast{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    box-shadow: 0px 0px 4px -1px;
+    padding: 5px 10px;
+    width: 50%;
+    justify-content: space-between;
+    border-radius: 5px;
+    position: fixed;
+    background-color: wheat;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -5%);
+    z-index: 10;
+    animation: topToDownToast 0.3s ease-out;
+}
+#customToast p{
+    font-weight: 500;
+}
+#customToast div:nth-child(2){
+    width: fit-content;
+    background-color: black;
+    border-radius: 50%;
+    padding: 4px;
+}
+#customToast div:nth-child(2) img{
+    cursor: pointer;
+    width: 1.5rem;
+}
+@keyframes topToDownToast {
+    0%{
+        top: -10%;
+        filter: blur(10px);
+    }
+    100%{
+        top: 5%;
+        filter: blur(0px);
+    }
+}
+@keyframes downToTopToast {
+    0%{
+        top: 5%;
+        filter: blur(0px);
+    }
+    100%{
+        top: -10%;
+        filter: blur(10px);
+    }
+}
