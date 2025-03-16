@@ -77,6 +77,7 @@ export default function LessonPlan({lessonPlan}) {
     };
     
     useEffect(()=>{
+        console.log(lessonPlan);
         if(lessonPlan){
             setPlanData({
                 topic: lessonPlan.topic,
